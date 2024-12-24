@@ -5,7 +5,7 @@
     "suite": "bookworm",
     "components": "main",
     "options": "[ Signed-By=/usr/share/keyrings/debian-archive-keyring.gpg ]",
-    "frozen": True
+    "frozen": true
   },
   {
     "name": "debian_12_UPDATE", 
@@ -13,7 +13,7 @@
     "suite": "bookworm-updates",
     "components": "main",
     "options": "[ Signed-By=/usr/share/keyrings/debian-archive-keyring.gpg ]",
-    "frozen": False
+    "frozen": false
   },
   {
     "name": "debian_12_SECURITY",
@@ -21,6 +21,6 @@
     "suite": "bookworm-security",
     "components": "main",
     "options": "[ Signed-By=/usr/share/keyrings/debian-archive-keyring.gpg ]",
-    "frozen": False
+    "frozen": false
   }
 ]
