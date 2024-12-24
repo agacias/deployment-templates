@@ -1,0 +1,23 @@
+[
+  {
+    "name": "debian_12_BASE"
+    "url": "http://deb.debian.org/debian",
+    "suite": "bookworm",
+    "components": "main",
+    "options": "Signed-By:/usr/share/keyrings/debian-archive-keyring.gpg"
+  },
+  {
+    "name": "debian_12_UPDATE"  
+    "url": "http://deb.debian.org/debian",
+    "suite": "bookworm-updates",
+    "components": "main",
+    "options": "Signed-By:/usr/share/keyrings/debian-archive-keyring.gpg"
+  },
+  {
+    "name": "debian_12_SECURITY"  
+    "url": "http://deb.debian.org/debian-security",
+    "suite": "bookworm-security",
+    "components": "main",
+    "options": "Signed-By:/usr/share/keyrings/debian-archive-keyring.gpg"
+  }
+]
