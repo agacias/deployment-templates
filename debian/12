@@ -1,7 +1,7 @@
 [
   {
     "name": "BASE",
-    "base_url": "http://deb.debian.org/debian",
+    "base_url": "http://ftp.debian.org/debian/",
     "suite": "bookworm",
     "components": "main",
     "options": "[ Signed-By=/usr/share/keyrings/debian-archive-keyring.gpg ]",
@@ -9,7 +9,7 @@
   },
   {
     "name": "UPDATE", 
-    "base_url": "http://deb.debian.org/debian",
+    "base_url": "http://ftp.debian.org/debian/",
     "suite": "bookworm-updates",
     "components": "main",
     "options": "[ Signed-By=/usr/share/keyrings/debian-archive-keyring.gpg ]",
@@ -17,7 +17,7 @@
   },
   {
     "name": "SECURITY",
-    "base_url": "http://deb.debian.org/debian-security",
+    "base_url": "http://deb.debian.org/debian-security/",
     "suite": "bookworm-security",
     "components": "main",
     "options": "[ Signed-By=/usr/share/keyrings/debian-archive-keyring.gpg ]",
